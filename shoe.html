@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe</title>
+  </head>
+  <body>
+    <div class="heading">SHOP LIFTER</div>
+    <nav class="nav"> 
+      <div class="left">
+        <a href="./index.html">Home</a>
+        <a href="#">About</a>
+        <div class="dropdown">
+          <button class="dropbtn">Shoes</button>
+          <div class="dropdown-content">
+            <a href="#">Shoe 1</a>
+            <a href="./shoe.html">Shoe 2</a>
+            <a href="#">Shoe 3</a>
+          </div>
+        </div>
+      </div>
+      <span class="search">
+        <input type="text" placeholder="Search..." />
+        <button class="glass">🔍</button>
+      </span>
+      <div class="right">
+        <a href="https://github.com/hritra" target="_blank">My other projects UwU</a>
+      </div>
+    </nav>
+    <div class="content">
+            <img src="./img/Swarovski-Fila-FX-2.jpg">
+            <p>Very good shoes. They're super comfortable and easy to move in!</p>
+            
+    </div>
+    <div id='container'>
+        <button id='click'>Check Price</button>
+    </div>>
+    <!-- CSS Ahead of this point, tread with caution! -->
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Akronim");
+      body {
+        margin: 0%;
+      }
+
+      .heading {
+        font-size: 50px;
+        font-weight: bold;
+        font-style: italic;
+        background-color: rgb(38, 11, 51);
+        text-align: center;
+        color: rgb(214, 143, 50);
+        font-family: Akronim;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(38, 11, 51);
+        padding: 20px;
+        font-size: 20px;
+        align-items: center;
+        color: rgb(173, 167, 167);
+        font-family: "Times New Roman", Times, serif;
+      }
+      .search .glass {
+        font-size: 25px;
+      }
+      .left {
+        display: flex;
+        gap: 12%;
+      }
+      .search {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      input {
+        width: 700px;
+        height: 30px;
+      }
+      a:hover {
+        color: aqua;
+        transform: scale(1.2);
+      }
+      .dropbtn {
+        border: none;
+        background-color: rgb(38, 11, 51);
+        color: white;
+        font-size: 20px;
+      }
+      .dropdown {
+        display: inline-block;
+        padding: relative;
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      .dropdown:hover .dropbtn {
+        background-color: #8f3b92;
+        border-radius: 10px;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        background-color: #f1f1f1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .text-center {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 20px;
+        font-weight: bolder;
+        font-family: Tahoma, sans-serif;
+        border: #ddd solid 8px;
+        max-width: 150%;
+        padding: 40px;
+        font-style: oblique;
+        color: aqua;
+      }
+
+      .content {
+        margin: 20px;
+      }
+      img{
+        display: block;
+        border: #000 solid 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      p{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        text-decoration: dotted;
+      }
+      #click{
+        display: block;
+        font-size: large;
+        height: 40px;
+        width: 150px;
+        margin: auto;
+        border-radius: 2%;
+      }
+      body{
+        background-color: azure;
+      }
+    </style>
+    <script>
+        container.addEventListener('click', function(){
+            alert('Lawde 80 hazar ke shoes h, tera ghar jaega ismai, tera ghar, ismai, chala jayenga');
+        });
+    </script>
+  </body>
+</html>
